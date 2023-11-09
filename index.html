@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Recipe Book</title>
+</head>
+<body>  
+  <h1 class="text-center my-4">Recipes Book</h1>
+
+    <!-- Add Recipe Form -->
+    <div class="container mt-5">
+        <h2>Add New Recipe</h2>
+        <form>
+            <div class="form-group my-3">
+                <label for="recipeName">Recipe Name</label>
+                <input type="text" class="form-control" id="recipeName" placeholder="Enter Recipe Name">
+            </div>
+            <div class="form-group">
+                <label for="recipeDescription">Recipe Description</label>
+                <textarea class="form-control" id="recipeDescription" rows="3" placeholder="Enter Recipe Description"></textarea>
+            </div>
+            <button class="btn btn-success px-5 d-block m-auto my-3">Add</button>
+        </form>
+    </div>
+
+          <!-- Recipe Display Section -->
+          <div class="container  mt-5">
+            <div class="row recipeDisplay">
+                
+            </div>
+        </div>
+    
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

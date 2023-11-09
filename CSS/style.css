@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../images/vegetables-set-left-black-slate.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff !important;
+
+}
+
+textarea {
+  min-height: 17.1rem !important; 
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  
+}
+
+.card-title, .card-text {
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #54585d;
+  border-color: #54585d;
+}
+
+.btn-success:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+.btn-primary {
+  background-color: #54585d;
+  border-color: #54585d;
+}
+
+.btn-primary:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+
+.container {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border-color: transparent;
+}
+
+.form-control:focus {
+  border-color: #343a40;
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+}
